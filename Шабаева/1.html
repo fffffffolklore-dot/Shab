@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sfera Floating — Погружение в невесомость</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- ШАПКА -->
+    <header class="header">
+        <div class="container header__container">
+            <div class="logo">
+                <span class="logo__main">SFERA</span>
+                <span class="logo__sub">floating</span>
+            </div>
+            <nav class="nav">
+                <ul class="menu">
+                    <li><a href="#about">О студии</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#promo">Сертификаты</a></li>
+                    <li><a href="#contacts">Контакты</a></li>
+                </ul>
+            </nav>
+            <a href="tel:+79132051815" class="btn-header">Позвонить</a>
+        </div>
+    </header>
+
+    <!-- ПЕРВЫЙ ЭКРАН -->
+    <section class="hero">
+        <div class="hero__bg"></div>
+        <div class="hero__gradient-bottom"></div>
+
+        <div class="container hero__container">
+            <div class="hero__content">
+                <h1 class="hero__title">Насладитесь моментами <br><span>абсолютной невесомости</span></h1>
+                <h1 class="hero__title-mobile">БОЛЬШЕ, ЧЕМ МАССАЖ</h1>
+                <div class="babah">
+                    <div class="hero__desktop-features">
+                        <p>Предоставляемые услуги:</p>
+                        <ul>
+                            <li>— Флоатинг</li>
+                            <li>— Массажи</li>
+                            <li>— Скрабирование</li>
+                            <li>— Обертывание</li>
+                            <li>— Телесная психотерапия</li>
+                        </ul>
+                    </div>
+                    <div class="knopka">
+                        <a href="#" class="btn-primary">ЗАПИСАТЬСЯ ОНЛАЙН</a>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
+        <!-- Идеальная линия (SVG) для десктопа -->
+        <svg class="hero__line-svg" viewBox="0 0 1920 500" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M-50 350C300 350 600 100 960 250C1320 400 1600 100 2000 150" stroke="white" stroke-width="2"
+                opacity="0.6" />
+        </svg>
+    </section>
+
+    <!-- О НАС -->
+    <section id="about" class="about">
+        <div class="container about__container">
+            <div class="about__text">
+                <h2 class="section-title">О нас</h2>
+                <p>Сфера SPA — это ваше личное пространство невесомости, где отдых становится искусством.</p>
+                <p>Погрузитесь в тишину и абсолютное расслабление с нашей уникальной услугой флоатинга. Отвлекитесь от
+                    повседневности, позвольте телу парить, а разуму — обрести гармонию.</p>
+                <p>Сфера SPA — это ощущение, к которому хочется возвращаться.</p>
+            </div>
+            <div class="about__image">
+                <img src="о нас 2.png" alt="Sfera Spa">
+            </div>
+        </div>
+    </section>
+
+    <!-- УСЛУГИ -->
+    <section id="services" class="services">
+        <div class="container">
+            <div class="services__badge-wrapper">
+                <div class="services__badge">Наши услуги</div>
+            </div>
+            <div class="services__grid">
+                <div class="service-card">
+                    <img src="усл1.png" alt="">
+                    <div class="service-card__info">
+                        <h3>Романтик</h3>
+                        <p>8700 ₽</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="усл2.png" alt="">
+                    <div class="service-card__info">
+                        <h3>Двойное удовольствие</h3>
+                        <p>4600 ₽</p>
+                    </div>
+                </div>
+                <div class="service-card">
+                    <img src="усл3.png" alt="">
+                    <div class="service-card__info">
+                        <h3>Блаженство</h3>
+                        <p>5100 ₽</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  
+    <section class="promo">
+        <!-- Фон этой секции — та самая картинка с линией из макета -->
+        <div class="promo__bg">
+            <div class="container promo__container">
+                <div class="promo__content">
+                    <h2 class="promo__title">
+                        СДЕЛАЙ НЕЗАБЫВАЕМЫЙ ПОДАРОК <br>
+                        СВОИМ БЛИЗКИМ С НАШИМИ <br>
+                        ПОДАРОЧНЫМИ СЕРТИФИКАТАМИ!
+                    </h2>
+                    <p class="promo__description">
+                        SFERA ПРЕДЛАГАЕТ УНИКАЛЬНЫЕ ПОДАРОЧНЫЕ СЕРТИФИКАТЫ, <br>
+                        КОТОРЫЕ ПРЕВРАТЯТ ОБЫДЕННЫЙ ПОДАРОК В <br>
+                        НЕЗАБЫВАЕМЫЙ ОПЫТ КРАСОТЫ И РЕЛАКСАЦИИ
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- КОНТАКТЫ -->
+    <section id="contacts" class="contacts">
+        <div class="container">
+            
+            <div class="contacts__wrapper">
+                <!-- Эта карточка на десктопе будет просто списком, а на мобилке — голубой карточкой -->
+                
+                <div class="contacts__card">
+                     <h2 class="contacts__title">Контакты</h2>
+                    <div class="contacts__card-logo">
+                        <span class="logo__main">SFERA</span>
+                        <span class="logo__sub">floating</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="label">Мы ждем вас по адресу:</span>
+                        <span class="value">г. Новосибирск, ул. Романова, 23</span>
+                    </div>
+                    <div class="contact-item">
+                        <span class="label">Наш телефон:</span>
+                        <a href="tel:+79132051815" class="value">+7 (913) 205 18 15</a>
+                    </div>
+                    <div class="contact-item">
+                        <span class="label">Время работы:</span>
+                        <span class="value">Ежедневно с 10:00-22:00</span>
+                    </div>
+                </div>
+                <div class="contacts__map">
+                    <img src="карт.png" alt="Карта">
+                </div>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
